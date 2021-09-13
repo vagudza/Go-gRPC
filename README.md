@@ -1,10 +1,6 @@
 # fibonacci-grpc
 The gRPC API service on Golang, which has one method-which returns a slice from the Fibonacci sequence from the indices `x` to `y`.
 
-# Get Fibonachi Slice
-The REST API service on Golang, which has one method-which returns a slice from the Fibonacci sequence from the indices `x` to `y`. 
-Code have tests.
-
 ## Input parameters
 `x`, `y` - the integer ordinal indices of the Fibonacci sequence
 
