@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option go_package = "./";
+
+package api;
+
+service FibonachiSlice {
+    rpc Fibonachi(AddRequest) returns (AddResponse) {}
+}
+
+message AddRequest {
+    int32 x = 1;
+    int32 y = 2;
+}
+
+message AddResponse {
+    string result = 1;
+}
+
+// protoc -I api/proto --go_out=plugins=grpc:pkg/api api/proto/fibonachi.proto
