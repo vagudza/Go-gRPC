@@ -22,7 +22,7 @@ The restriction of 92 is due to the overflow of a variable of type int
 
 ## Examples
 For testing the service you need a gRPC client. I suggest using the Evans utility https://github.com/ktr0731/evans (don't forget add path to evans file to system `PATH`. It needs to run in terminal). You can interact with gRPC srever by steps:
-+ Run service (see `Quick start`)
++ Run service (see `Quick start` below)
 + Run `evans` in terminal `evans api/proto/fibonachi.proto -p 8080`
 + Call Fibonacci procedure `call Fibonachi`
 + Input `x` and `y` correspond to the "Limitations" section
